@@ -1,0 +1,14 @@
+{
+  "id":"SilentSkinMod",
+  "pck_name": "SilentSkinMod",
+  "name": "SilentSkinMod",
+  "author": "null",
+  "description": "A Skin for Silent",
+  "version": "v0.1",
+  "has_pck": true,
+  "has_dll": false,
+  "dependencies": [
+    "BaseLib"
+  ],
+  "affects_gameplay": false
+}

@@ -1,0 +1,395 @@
+characterselect_silent.png
+	size: 4096, 3063
+	filter: Linear, Linear
+	scale: 0.8
+HS 0
+	bounds: 3708, 3008, 38, 54
+	offsets: 0, 0, 38, 56
+HS 1
+	bounds: 2232, 3031, 16, 31
+	offsets: 0, 0, 18, 31
+HS 2
+	bounds: 1896, 3032, 20, 30
+	offsets: 1, 0, 22, 30
+HS 3
+	bounds: 1258, 3037, 42, 25
+HS 4
+	bounds: 1300, 3038, 30, 24
+HS 5
+	bounds: 1875, 3034, 21, 28
+	offsets: 0, 2, 21, 30
+HS 6
+	bounds: 927, 3020, 51, 42
+HS 7
+	bounds: 3874, 2770, 96, 87
+HS 8
+	bounds: 2939, 2052, 107, 129
+	offsets: 0, 1, 108, 152
+HS 9
+	bounds: 3235, 3021, 42, 41
+	offsets: 0, 1, 42, 42
+L B yanpi 0
+	bounds: 1763, 3032, 34, 30
+L T jiemao 0
+	bounds: 2468, 3034, 12, 28
+	offsets: 1, 0, 13, 28
+L T yanpi 0
+	bounds: 70, 3051, 9, 11
+	offsets: 0, 0, 9, 12
+L T yanpi 1
+	bounds: 1042, 3044, 18, 18
+L dao 0
+	bounds: 1138, 2976, 86, 462
+	offsets: 0, 0, 87, 462
+	rotate: 270
+L dao 1
+	bounds: 4053, 2782, 42, 118
+L datui hudiejie
+	bounds: 3882, 3012, 34, 50
+L leg 0
+	bounds: 1565, 652, 596, 432
+	offsets: 1, 0, 604, 444
+L leg 1
+	bounds: 193, 97, 714, 332
+L leg feidao
+	bounds: 1, 2889, 39, 92
+L leg pidai
+	bounds: 1370, 528, 273, 206
+L leg yaoping
+	bounds: 3495, 2869, 71, 94
+L leg yinying
+	bounds: 2848, 597, 246, 196
+	offsets: 1, 1, 250, 197
+L shou 0
+	bounds: 3262, 1461, 156, 229
+	offsets: 0, 0, 156, 230
+L shou 1
+	bounds: 3398, 949, 158, 269
+	offsets: 0, 1, 158, 270
+L tongkong 0
+	bounds: 586, 3045, 21, 17
+	offsets: 0, 1, 21, 18
+L xiuzi 0
+	bounds: 293, 2539, 90, 166
+L xiuzi 1
+	bounds: 3188, 1602, 134, 229
+L xiuzi 2
+	bounds: 1118, 2107, 64, 138
+L xiuzi 3
+	bounds: 3167, 2074, 119, 106
+L xiuzi 4
+	bounds: 2388, 2188, 54, 142
+	offsets: 11, 0, 65, 142
+L xiuzi 5
+	bounds: 3268, 1958, 139, 266
+L xiuzi feidao 0
+	bounds: 2251, 1318, 109, 189
+	offsets: 0, 0, 110, 189
+L yanbai
+	bounds: 1020, 3041, 22, 21
+L yanjiao
+	bounds: 60, 3044, 15, 18
+R B yanpi
+	bounds: 2422, 2986, 46, 76
+R T jiemao 0
+	bounds: 1795, 3039, 16, 23
+R T jiemao 1
+	bounds: 23, 2878, 46, 65
+R T jiemao 2
+	bounds: 1346, 3041, 10, 21
+R T yanpi 0
+	bounds: 1903, 3025, 22, 37
+R T yanpi 1
+	bounds: 1800, 2925, 62, 81
+	offsets: 0, 0, 62, 82
+R dao 0
+	bounds: 1045, 1177, 485, 170
+R dao 1
+	bounds: 1643, 2246, 309, 84
+	offsets: 0, 0, 310, 84
+R dao guang 0
+	bounds: 1791, 1991, 251, 143
+R lag 0
+	bounds: 2114, 432, 1381, 866
+	offsets: 0, 0, 1381, 902
+	rotate: 180
+R lag 1
+	bounds: 1, 2472, 293, 451
+R shou 0
+	bounds: 1264, 2714, 222, 141
+R shou 1
+	bounds: 733, 2254, 101, 76
+	offsets: 0, 5, 101, 82
+R shou 2
+	bounds: 500, 3018, 93, 44
+	offsets: 0, 0, 93, 45
+R shou 3
+	bounds: 589, 2433, 92, 128
+R tongkong 0
+	bounds: 1728, 3025, 34, 37
+R xiuzi 0
+	bounds: 3693, 148, 402, 398
+R xiuzi 1
+	bounds: 2148, 283, 1000, 357
+R xiuzi feidao
+	bounds: 1091, 2155, 281, 175
+	offsets: 0, 1, 281, 176
+R yanbai
+	bounds: 1286, 2958, 37, 50
+R yanjiao
+	bounds: 1808, 3038, 12, 24
+T hudiejie 0
+	bounds: 1631, 3025, 52, 37
+	offsets: 1, 0, 54, 37
+T hudiejie 1
+	bounds: 1216, 2953, 70, 59
+T hudiejie 2
+	bounds: 1847, 3033, 28, 29
+T hudiejie 3
+	bounds: 2201, 3004, 42, 58
+T hudiejie 4
+	bounds: 1, 2556, 64, 80
+Top feidao
+	bounds: 1804, 1, 1962, 627
+	rotate: 180
+beijing 0
+	bounds: 1, 398, 1120, 606
+beijing 1
+	bounds: 3495, 2964, 159, 98
+bengdai 0
+	bounds: 1223, 683, 167, 294
+bengdai 2
+	bounds: 3337, 2790, 106, 72
+bianzi 0
+	bounds: 1916, 2012, 319, 126
+bianzi 1
+	bounds: 3547, 68, 842, 548
+	rotate: 270
+body 0
+	bounds: 3525, 1774, 570, 618
+bozi
+	bounds: 3999, 2523, 77, 95
+	offsets: 0, 0, 78, 95
+cao 0
+	bounds: 1732, 2788, 73, 207
+	offsets: 0, 0, 74, 207
+cao 1
+	bounds: 1678, 1983, 114, 142
+cao 2
+	bounds: 1798, 1628, 201, 152
+cao 3
+	bounds: 3408, 2196, 116, 142
+	offsets: 0, 1, 116, 143
+diban 0
+	bounds: 1003, 1251, 1501, 730
+	offsets: 1, 0, 1502, 730
+dingdaer guang
+	bounds: 430, 430, 522, 478
+	offsets: 4, 20, 526, 498
+doumao 0
+	bounds: 3786, 1406, 158, 162
+doumao 1
+	bounds: 1200, 2728, 87, 96
+doumao 2
+	bounds: 1580, 1998, 107, 118
+doumao 3
+	bounds: 43, 901, 347, 187
+doumao 4
+	bounds: 1136, 2718, 102, 74
+doumao 5
+	bounds: 592, 3008, 66, 54
+doumao 6
+	bounds: 97, 470, 353, 166
+	offsets: 0, 0, 354, 166
+doumao 8
+	bounds: 2350, 1311, 296, 377
+doumao7
+	bounds: 1697, 2705, 85, 146
+	offsets: 0, 0, 99, 146
+doumao9
+	bounds: 385, 2441, 232, 99
+doupeng 0
+	bounds: 3679, 1998, 140, 129
+doupeng 1
+	bounds: 3453, 1913, 122, 150
+doupeng 2
+	bounds: 3170, 3026, 33, 36
+doupeng 3
+	bounds: 3058, 1576, 429, 601
+doupeng 4
+	bounds: 3528, 1776, 61, 140
+	offsets: 0, 0, 62, 140
+doupeng 5
+	bounds: 1350, 2209, 300, 121
+	offsets: 0, 1, 300, 122
+doupeng 6
+	bounds: 293, 2708, 94, 125
+doupeng 7
+	bounds: 1, 2828, 1199, 234
+doupeng 8
+	bounds: 2459, 1161, 1234, 866
+	rotate: 90
+doupeng feidao 0
+	bounds: 3829, 949, 266, 185
+doupeng sheng 0
+	bounds: 3868, 1641, 147, 156
+	offsets: 3, 0, 150, 156
+erduo 0
+	bounds: 1174, 2942, 53, 72
+	offsets: 0, 6, 53, 78
+fengge 0
+	bounds: 870, 1764, 132, 200
+gutoushipin 0
+	bounds: 968, 3030, 51, 32
+	offsets: 0, 0, 51, 34
+gutoushipin 1
+	bounds: 1683, 3025, 45, 37
+	offsets: 0, 0, 46, 37
+gutoushipin 2
+	bounds: 732, 3011, 69, 51
+	offsets: 0, 0, 70, 52
+jigu 0
+	bounds: 3993, 1215, 102, 370
+	offsets: 0, 0, 102, 376
+jigu 1
+	bounds: 693, 3009, 61, 53
+jigu 2
+	bounds: 1, 2296, 221, 229
+jigu yinying 0
+	bounds: 1594, 2990, 72, 308
+	rotate: 90
+lian 0
+	bounds: 1, 2200, 134, 104
+lian 1
+	bounds: 3872, 2855, 217, 207
+	offsets: 0, 5, 218, 215
+meimao 0
+	bounds: 3563, 2909, 41, 54
+meimao 1
+	bounds: 1327, 3044, 18, 18
+mianju 0
+	bounds: 3279, 2708, 99, 154
+mianju yanjing 0
+	bounds: 419, 3045, 17, 94
+	rotate: 90
+mianju yanjing 1
+	bounds: 163, 3033, 29, 146
+	offsets: 9, 0, 38, 146
+	rotate: 90
+mianju yinying 0
+	bounds: 68, 2344, 342, 190
+	offsets: 10, 11, 358, 201
+miwu 0
+	bounds: 904, 2687, 646, 289
+miwu 1
+	bounds: 3641, 1689, 454, 192
+	offsets: 1025, 341, 2610, 1004
+miwu 2
+	bounds: 2126, 1994, 319, 336
+	offsets: 0, 0, 322, 355
+miwu 3
+	bounds: 852, 173, 1522, 856
+	rotate: 180
+miwu 4
+	bounds: 3557, 550, 438, 778
+	offsets: 0, 7, 493, 874
+naizi 0
+	bounds: 1486, 2677, 269, 326
+	offsets: 16, 0, 285, 329
+naizi 1
+	bounds: 687, 2226, 106, 104
+	offsets: 0, 0, 107, 104
+neiyi 0
+	bounds: 1209, 1311, 298, 298
+neiyi 1
+	bounds: 3435, 1852, 278, 330
+neiyi 2
+	bounds: 785, 3028, 97, 34
+neiyi 3
+	bounds: 379, 2805, 46, 88
+neiyi 4
+	bounds: 785, 2040, 346, 290
+pigu 0
+	bounds: 3788, 2319, 307, 254
+renwu guangyun
+	bounds: 424, 1421, 578, 363
+shalou 0
+	bounds: 3655, 2996, 53, 66
+shalou guang 0
+	bounds: 2249, 2884, 172, 178
+shalou guang 1
+	bounds: 3964, 2204, 114, 114
+shalou guang 2
+	bounds: 3279, 2863, 215, 199
+shipin touying 0
+	bounds: 1201, 3037, 57, 25
+shipin touying 1
+	bounds: 23, 3049, 42, 13
+shipin touying 2
+	bounds: 303, 3051, 115, 11
+shipinsheng 0
+	bounds: 1, 3035, 164, 27
+shipinsheng 1
+	bounds: 1796, 2944, 29, 51
+shu 0
+	bounds: 682, 2331, 1776, 731
+shu 1
+	bounds: 370, 2525, 533, 419
+	offsets: 0, 3, 533, 422
+shugan 0
+	bounds: 1508, 946, 848, 894
+	rotate: 90
+shugan 1
+	bounds: 2374, 707, 587, 266
+shugan 2
+	bounds: 1, 457, 997, 1501
+	rotate: 270
+shugan 3
+	bounds: 3279, 1088, 1310, 766
+	rotate: 270
+tou yinying
+	bounds: 961, 2887, 215, 135
+	offsets: 14, 9, 244, 156
+toufa 0
+	bounds: 2511, 2201, 246, 170
+toufa 1
+	bounds: 2509, 2345, 101, 123
+toufa 2
+	bounds: 3787, 855, 154, 263
+	offsets: 0, 0, 154, 280
+toufa 3
+	bounds: 3239, 1086, 250, 239
+toufa 4
+	bounds: 3899, 2611, 196, 246
+toufa 5
+	bounds: 3858, 2541, 140, 142
+toufa 6
+	bounds: 2123, 2904, 121, 158
+tougu mianju 0
+	bounds: 2907, 867, 300, 602
+	offsets: 3, 0, 303, 602
+	rotate: 90
+tougu mianju 1
+	bounds: 2459, 2414, 52, 187
+tougu mianju 2
+	bounds: 1406, 1011, 189, 286
+touying 0
+	bounds: 1, 1442, 2129, 1004
+	offsets: 0, 0, 2144, 1036
+wuqi1
+	bounds: 2459, 2176, 818, 886
+wuqi2
+	bounds: 3279, 2398, 592, 664
+yan guang 0
+	bounds: 882, 3021, 46, 41
+	offsets: 3, 0, 54, 46
+yanguang 1
+	bounds: 881, 2895, 79, 76
+yaoping 0
+	bounds: 643, 3004, 61, 58
+zhi shui 0
+	bounds: 2, 2510, 79, 73
+	offsets: 0, 0, 80, 73
+zhi shui 1
+	bounds: 1462, 2004, 138, 95
+	offsets: 0, 0, 138, 96

@@ -1,0 +1,22 @@
+[gd_scene load_steps=6 format=3 uid="uid://yirtxm2nffuj"]
+
+[ext_resource type="Script" uid="uid://ddytifm8jllqv" path="res://src/Core/Nodes/Screens/Shops/NMerchantCharacter.cs" id="1_tiw17"]
+[ext_resource type="SpineAtlasResource" uid="uid://b2j133fye1ndq" path="res://silent/animations/merchant/Silent/silent.atlas" id="2_rcetj"]
+[ext_resource type="Script" uid="uid://cvvcwca3clbji" path="res://src/Core/Nodes/RestSite/NRestSiteCharacter.cs" id="2_tiw17"]
+[ext_resource type="SpineSkeletonFileResource" uid="uid://ocqvxyw476qc" path="res://silent/animations/merchant/Silent/silent.skel" id="4_drnpe"]
+
+[sub_resource type="SpineSkeletonDataResource" id="SpineSkeletonDataResource_ctmtv"]
+atlas_res = ExtResource("2_rcetj")
+skeleton_file_res = ExtResource("4_drnpe")
+script = ExtResource("2_tiw17")
+
+[node name="SilentMerchant" type="Node2D"]
+script = ExtResource("1_tiw17")
+
+[node name="SpineSprite" type="SpineSprite" parent="."]
+skeleton_data_res = SubResource("SpineSkeletonDataResource_ctmtv")
+preview_skin = "Default"
+preview_animation = "relaxed_loop"
+preview_frame = false
+preview_time = 0.0
+scale = Vector2(0.55, 0.55)

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilentSkinMod", "SilentSkinMod.csproj", "{08571E30-87C8-586B-551A-578E03378382}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		ExportDebug|Any CPU = ExportDebug|Any CPU
+		ExportRelease|Any CPU = ExportRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08571E30-87C8-586B-551A-578E03378382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08571E30-87C8-586B-551A-578E03378382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08571E30-87C8-586B-551A-578E03378382}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{08571E30-87C8-586B-551A-578E03378382}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+		{08571E30-87C8-586B-551A-578E03378382}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{08571E30-87C8-586B-551A-578E03378382}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A3A4C25-DE23-498C-B2A2-BA40070F9604}
+	EndGlobalSection
+EndGlobal
