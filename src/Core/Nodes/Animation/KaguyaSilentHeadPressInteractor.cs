@@ -33,18 +33,12 @@ public partial class KaguyaSilentHeadPressInteractor : Control
 		return new MegaSprite(Variant.From(_spineNode)).GetAnimationState();
 	}
 
-	private void PlayAnimation(int track, string name, bool loop)
-	{
-		if (_animationState == null) return;
-		_animationState.BoundObject.Call("set_animation", name, loop, track);
-	}
-
 	public override void _Ready()
 	{
 		_animationState = GetAnimationState();
 		if (_animationState != null)
 		{
-			PlayAnimation(TrackBody, IdleAnimation, true);
+			_animationState.SetAnimation(IdleAnimation, true, TrackBody);
 		}
 	}
 
@@ -73,12 +67,12 @@ public partial class KaguyaSilentHeadPressInteractor : Control
 
 				if (_isLongPressTriggered)
 				{
-					PlayAnimation(TrackHead, ReleaseAnim, false);
-					_animationState.AddEmptyAnimation(TrackHead);
+					_animationState.SetAnimation(ReleaseAnim, false, TrackHead);
+					_animationState.AddEmptyAnimation(TrackHead); 
 				}
 				else
 				{
-					PlayAnimation(TrackHead, ClickAnim, false);
+					_animationState.SetAnimation(ClickAnim, false, TrackHead);
 					_animationState.AddEmptyAnimation(TrackHead);
 				}
 
@@ -97,7 +91,8 @@ public partial class KaguyaSilentHeadPressInteractor : Control
 		{
 			_isLongPressTriggered = true;
 
-			PlayAnimation(TrackHead, PressStartAnim, false);
+			_animationState.SetAnimation(PressStartAnim, false, TrackHead);
+			_animationState.AddAnimation(PressLoopAnim, 0f, true, TrackHead);
 		}
 	}
 }
