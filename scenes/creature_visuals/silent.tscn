@@ -14,8 +14,9 @@ preview_animation = "idle_loop"
 preview_frame = false
 preview_time = 0.0
 unique_name_in_owner = true
-position = Vector2(15, -2.000002)
+position = Vector2(5.000001, -2)
 scale = Vector2(0.35, 0.35)
+metadata/_edit_lock_ = true
 
 [node name="Bounds" type="Control" parent="."]
 unique_name_in_owner = true

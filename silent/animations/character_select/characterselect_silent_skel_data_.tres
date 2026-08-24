@@ -1,7 +1,7 @@
 [gd_resource type="SpineSkeletonDataResource" load_steps=3 format=3 uid="uid://bfgiegm6fg76q"]
 
-[ext_resource type="SpineAtlasResource" uid="uid://crvym0nq3pfvh" path="res://silent/animations/character_select/silent/characterselect_silent.atlas" id="1_blmi7"]
-[ext_resource type="SpineSkeletonFileResource" uid="uid://bwlkfopmxq4vn" path="res://silent/animations/character_select/silent/characterselect_silent.skel" id="2_i4c7b"]
+[ext_resource type="SpineAtlasResource" uid="uid://cu748pnvgnt0q" path="res://silent/animations/character_select/silent/characterselect_silent.atlas" id="1_blmi7"]
+[ext_resource type="SpineSkeletonFileResource" uid="uid://decp471n5xuti" path="res://silent/animations/character_select/silent/characterselect_silent.skel" id="2_i4c7b"]
 
 [resource]
 atlas_res = ExtResource("1_blmi7")

@@ -34,7 +34,7 @@ L T jiemao 0
 	bounds: 2468, 3034, 12, 28
 	offsets: 1, 0, 13, 28
 L T yanpi 0
-	bounds: 70, 3051, 9, 11
+	bounds: 82, 3051, 9, 11
 	offsets: 0, 0, 9, 12
 L T yanpi 1
 	bounds: 1042, 3044, 18, 18
@@ -313,6 +313,8 @@ pigu 0
 	bounds: 3788, 2319, 307, 254
 renwu guangyun
 	bounds: 424, 1421, 578, 363
+scope
+	bounds: 73, 3054, 8, 8
 shalou 0
 	bounds: 3655, 2996, 53, 66
 shalou guang 0

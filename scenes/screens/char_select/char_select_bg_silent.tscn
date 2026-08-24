@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://fcuocamiai2r"]
+[gd_scene load_steps=16 format=3 uid="uid://fcuocamiai2r"]
 
 [ext_resource type="SpineSkeletonDataResource" uid="uid://bfgiegm6fg76q" path="res://silent/animations/character_select/characterselect_silent_skel_data_.tres" id="1_4vfsy"]
 [ext_resource type="Shader" uid="uid://bwa5alqqsss7h" path="res://shaders/vfx/vfx_stepped_shader_fire_add.tres" id="3_d7gfu"]
@@ -8,6 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://d2y3ee2o52m10" path="res://images/vfx/fire/wave_noise_round.png" id="7_i05fu"]
 [ext_resource type="Script" uid="uid://e3nlgaa23pjk" path="res://scenes/backgrounds/little_light_script.gd" id="8_catwu"]
 [ext_resource type="Texture2D" uid="uid://bbp7564qvqp6a" path="res://images/vfx/dot.png" id="9_3lbej"]
+[ext_resource type="Script" uid="uid://cqq7t4gk31r4s" path="res://src/Core/Nodes/Animation/HeadBoneClickToggle.cs" id="11_4op7v"]
 [ext_resource type="Script" uid="uid://b65uwe7w48kg8" path="res://src/Core/Nodes/Animation/KaguyaSilentHeadPressInteractor.cs" id="11_xp3hp"]
 [ext_resource type="Material" uid="uid://c4ycqv0gdxvmr" path="res://themes/canvas_item_material_additive_shared.tres" id="shared_additive_mat"]
 
@@ -68,6 +69,14 @@ grow_horizontal = 2
 grow_vertical = 2
 pivot_offset = Vector2(1280, 600)
 
+[node name="Head_Click" type="Control" parent="."]
+anchors_preset = 0
+offset_left = 1722.0
+offset_top = 299.0
+offset_right = 1865.0
+offset_bottom = 590.0
+script = ExtResource("11_4op7v")
+
 [node name="stink_lines" type="Sprite2D" parent="."]
 material = SubResource("ShaderMaterial_vq3mu")
 position = Vector2(932.00006, 667.99994)
@@ -80,8 +89,16 @@ preview_skin = "default"
 preview_animation = "animation"
 preview_frame = false
 preview_time = 0.0
-position = Vector2(70.999985, -45.000008)
-scale = Vector2(0.39, 0.39)
+position = Vector2(-587, -430)
+scale = Vector2(0.65, 0.65)
+
+[node name="SpineBoneNode" type="SpineBoneNode" parent="SpineSprite"]
+bone_name = "head44"
+show_behind_parent = true
+position = Vector2(3618.4805, 1324.0424)
+rotation = 0.103823274
+scale = Vector2(30.415113, 48.481075)
+skew = -0.06320882
 
 [node name="light_small2" type="CPUParticles2D" parent="."]
 material = ExtResource("shared_additive_mat")
@@ -135,9 +152,9 @@ color_ramp = SubResource("Gradient_8v4pi")
 
 [node name="Press_Head" type="Control" parent="."]
 anchors_preset = 0
-offset_left = 1423.0
-offset_top = 179.0
-offset_right = 1737.0
-offset_bottom = 486.0
+offset_left = 1549.0
+offset_top = 258.0
+offset_right = 1747.4235
+offset_bottom = 452.0
 script = ExtResource("11_xp3hp")
 LongPressThreshold = 0.2
