@@ -12,6 +12,7 @@ public partial class HeadBoneClickToggle : Control
         "tougu mianju 1",
         "tougu mianju 0",
         "mianju yanjing 0",
+        "mianju yanjing 1",
         "tougu mianju 2",
         "mianju yinying 0"
     };

@@ -7,10 +7,15 @@
 script = ExtResource("1_hpa0q")
 metadata/_edit_group_ = true
 
+[node name="FormVfx" type="Control" parent="."]
+unique_name_in_owner = true
+layout_mode = 3
+anchors_preset = 0
+
 [node name="Visuals" type="SpineSprite" parent="."]
 skeleton_data_res = ExtResource("2_mh3y5")
 preview_skin = "Default"
-preview_animation = "idle_loop"
+preview_animation = "shiv"
 preview_frame = false
 preview_time = 0.0
 unique_name_in_owner = true
@@ -34,10 +39,3 @@ position = Vector2(0, -146)
 [node name="IntentPos" type="Marker2D" parent="."]
 unique_name_in_owner = true
 position = Vector2(0, -302)
-
-[node name="FormVfx" type="Control" parent="."]
-unique_name_in_owner = true
-layout_mode = 3
-anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0

@@ -153,11 +153,11 @@ ATK mianju yanjing
 	bounds: 437, 855, 124, 206
 	rotate: 90
 ATK nai hudiejie 0
-	bounds: 727, 1313, 17, 37
-daizi1
-	bounds: 727, 1313, 17, 37
-ATK nai hudiejie 1
 	bounds: 745, 1316, 17, 37
+daizi1
+	bounds: 745, 1316, 17, 37
+ATK nai hudiejie 1
+	bounds: 420, 1407, 17, 37
 ATK nai hudiejie 2
 	bounds: 226, 1915, 13, 46
 baibu2
@@ -169,9 +169,9 @@ ATK nai hudiejie 3
 daizi144
 	bounds: 934, 2001, 14, 46
 ATK nai hudiejie 4
-	bounds: 27, 2032, 12, 15
+	bounds: 543, 2032, 12, 15
 baibubaibu
-	bounds: 27, 2032, 12, 15
+	bounds: 543, 2032, 12, 15
 ATK neiyi 0
 	bounds: 556, 1092, 170, 173
 ATK neiyi 1
@@ -273,7 +273,7 @@ bengdai1
 bengdai2
 	bounds: 643, 1989, 14, 58
 bengdai3
-	bounds: 226, 1812, 16, 20
+	bounds: 226, 1811, 16, 20
 bengdai4
 	bounds: 720, 2012, 20, 35
 bengdai5
@@ -318,9 +318,10 @@ doumao4
 doumao43434
 	bounds: 938, 960, 134, 188
 	rotate: 90
+dujiaoshou_0
+	bounds: 27, 2035, 15, 12
 dujiaoshou_1
-	bounds: 691, 1999, 15, 48
-	offsets: 1, 1, 17, 50
+	bounds: 644, 1939, 17, 50
 dujiaoshou_10
 	bounds: 136, 2010, 9, 37
 	offsets: 0, 26, 9, 63
@@ -378,7 +379,7 @@ dujiaoshou_32
 dujiaoshou_33
 	bounds: 1563, 1594, 37, 27
 dujiaoshou_34
-	bounds: 226, 1852, 14, 21
+	bounds: 688, 1799, 14, 21
 dujiaoshou_36
 	bounds: 511, 1919, 22, 46
 	offsets: 0, 2, 22, 48
@@ -468,7 +469,7 @@ dujiaoshou_8
 	bounds: 555, 948, 164, 203
 	rotate: 270
 dujiaoshou_9
-	bounds: 40, 2039, 10, 8
+	bounds: 43, 2039, 10, 8
 fasi
 	bounds: 115, 1942, 10, 105
 fengren
@@ -510,7 +511,7 @@ houdangbu
 	bounds: 1856, 769, 140, 137
 	offsets: 0, 2, 140, 139
 hudiejie
-	bounds: 643, 1954, 15, 34
+	bounds: 226, 1831, 15, 34
 	offsets: 0, 0, 15, 35
 hudiejie1
 	bounds: 529, 1990, 14, 57
@@ -705,7 +706,7 @@ toushi111
 	bounds: 142, 2034, 9, 13
 	offsets: 1, 1, 12, 15
 toushi2
-	bounds: 543, 2025, 13, 22
+	bounds: 839, 1984, 13, 22
 	offsets: 0, 0, 13, 23
 toushi21
 	bounds: 1, 2032, 12, 15
@@ -780,7 +781,7 @@ youshoubi
 	bounds: 1, 1315, 47, 118
 	offsets: 0, 0, 48, 118
 youshouzbi
-	bounds: 420, 1406, 23, 48
+	bounds: 685, 1999, 23, 48
 youshouzhang
 	bounds: 1367, 1771, 52, 55
 youxiaobi
