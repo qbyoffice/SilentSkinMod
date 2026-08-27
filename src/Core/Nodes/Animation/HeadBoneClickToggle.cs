@@ -22,10 +22,6 @@ public partial class HeadBoneClickToggle : Control
     public override void _Ready()
     {
         _spineNode = GetNode("../SpineSprite");
-        if (_spineNode == null)
-        {
-            GD.PrintErr("未找到 SpineSprite 节点，请检查路径 '../SpineSprite'");
-        }
     }
 
     public override void _Input(InputEvent @event)
@@ -48,7 +44,6 @@ public partial class HeadBoneClickToggle : Control
         var skeleton = spineSprite.GetSkeleton();
         if (skeleton == null)
         {
-            GD.PrintErr("无法获取骨骼");
             return;
         }
 
@@ -57,7 +52,6 @@ public partial class HeadBoneClickToggle : Control
             var slot = skeleton.BoundObject.Call("find_slot", slotName);
             if (slot.VariantType == Variant.Type.Nil)
             {
-                GD.PrintErr($"插槽 '{slotName}' 不存在");
                 continue;
             }
             
