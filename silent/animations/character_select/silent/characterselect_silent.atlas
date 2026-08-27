@@ -1,397 +1,488 @@
 characterselect_silent.png
-	size: 4096, 3063
-	filter: Linear, Linear
-	scale: 0.8
+size:4095,3774
+filter:Linear,Linear
 HS 0
-	bounds: 3708, 3008, 38, 54
-	offsets: 0, 0, 38, 56
+bounds:1634,3736,38,54
+offsets:0,0,38,56
+rotate:90
 HS 1
-	bounds: 2232, 3031, 16, 31
-	offsets: 0, 0, 18, 31
+bounds:283,3758,16,31
+offsets:0,0,18,31
+rotate:90
 HS 2
-	bounds: 1896, 3032, 20, 30
-	offsets: 1, 0, 22, 30
+bounds:617,3753,21,30
+offsets:1,0,22,30
+rotate:90
 HS 3
-	bounds: 1258, 3037, 42, 25
+bounds:774,3749,42,25
 HS 4
-	bounds: 1300, 3038, 30, 24
+bounds:742,3750,30,24
 HS 5
-	bounds: 1875, 3034, 21, 28
-	offsets: 0, 2, 21, 30
+bounds:649,3753,21,28
+offsets:0,2,21,30
+rotate:90
 HS 6
-	bounds: 927, 3020, 51, 42
+bounds:1931,3732,50,42
+offsets:0,0,51,42
 HS 7
-	bounds: 3874, 2770, 96, 87
+bounds:1052,3656,96,87
 HS 8
-	bounds: 2939, 2052, 107, 129
-	offsets: 0, 1, 108, 152
+bounds:3750,3593,107,129
+offsets:0,1,108,152
+rotate:90
 HS 9
-	bounds: 3235, 3021, 42, 41
-	offsets: 0, 1, 42, 42
+bounds:1784,3733,42,41
+offsets:0,1,42,42
 L B yanpi 0
-	bounds: 1763, 3032, 34, 30
+bounds:1163,3744,34,30
 L T jiemao 0
-	bounds: 2468, 3034, 12, 28
-	offsets: 1, 0, 13, 28
+bounds:163,3762,12,28
+offsets:1,0,13,28
+rotate:90
 L T yanpi 0
-	bounds: 82, 3051, 9, 11
-	offsets: 0, 0, 9, 12
+bounds:10,3765,9,11
+offsets:0,0,9,12
+rotate:90
 L T yanpi 1
-	bounds: 1042, 3044, 18, 18
+bounds:460,3756,18,18
 L dao 0
-	bounds: 1138, 2976, 86, 462
-	offsets: 0, 0, 87, 462
-	rotate: 270
+bounds:1560,3644,86,462
+offsets:0,0,87,462
+rotate:90
 L dao 1
-	bounds: 4053, 2782, 42, 118
+bounds:1983,3732,42,118
+rotate:90
 L datui hudiejie
-	bounds: 3882, 3012, 34, 50
+bounds:1290,3740,34,50
+rotate:90
 L leg 0
-	bounds: 1565, 652, 596, 432
-	offsets: 1, 0, 604, 444
+bounds:0,2147,596,432
+offsets:1,0,604,444
 L leg 1
-	bounds: 193, 97, 714, 332
+bounds:0,2581,714,332
 L leg feidao
-	bounds: 1, 2889, 39, 92
+bounds:1690,3735,39,92
+rotate:90
 L leg pidai
-	bounds: 1370, 528, 273, 206
+bounds:954,3151,273,206
 L leg yaoping
-	bounds: 3495, 2869, 71, 94
+bounds:3752,3703,71,94
+rotate:90
 L leg yinying
-	bounds: 2848, 597, 246, 196
-	offsets: 1, 1, 250, 197
+bounds:0,3221,247,196
+offsets:1,1,250,197
 L shou 0
-	bounds: 3262, 1461, 156, 229
-	offsets: 0, 0, 156, 230
+bounds:265,3405,156,229
+offsets:0,0,156,230
+rotate:90
 L shou 1
-	bounds: 3398, 949, 158, 269
-	offsets: 0, 1, 158, 270
+bounds:496,3392,158,269
+offsets:0,1,158,270
+rotate:90
 L tongkong 0
-	bounds: 586, 3045, 21, 17
-	offsets: 0, 1, 21, 18
+bounds:341,3757,21,17
+offsets:0,1,21,18
 L xiuzi 0
-	bounds: 293, 2539, 90, 166
+bounds:2154,3636,90,166
+rotate:90
 L xiuzi 1
-	bounds: 3188, 1602, 134, 229
+bounds:2055,3500,134,229
+rotate:90
 L xiuzi 2
-	bounds: 1118, 2107, 64, 138
+bounds:3530,3710,64,138
+rotate:90
 L xiuzi 3
-	bounds: 3167, 2074, 119, 106
+bounds:3509,3602,119,106
 L xiuzi 4
-	bounds: 2388, 2188, 54, 142
-	offsets: 11, 0, 65, 142
+bounds:2957,3720,54,142
+offsets:11,0,65,142
+rotate:90
 L xiuzi 5
-	bounds: 3268, 1958, 139, 266
+bounds:2647,3478,139,266
+rotate:90
 L xiuzi feidao 0
-	bounds: 2251, 1318, 109, 189
-	offsets: 0, 0, 110, 189
+bounds:3881,3590,109,189
+offsets:0,0,110,189
+rotate:90
 L yanbai
-	bounds: 1020, 3041, 22, 21
+bounds:679,3753,22,21
 L yanjiao
-	bounds: 60, 3044, 15, 18
+bounds:263,3759,15,18
+rotate:90
 R B yanpi
-	bounds: 2422, 2986, 46, 76
+bounds:2258,3728,46,76
+rotate:90
 R T jiemao 0
-	bounds: 1795, 3039, 16, 23
+bounds:316,3758,16,23
+rotate:90
 R T jiemao 1
-	bounds: 23, 2878, 46, 65
+bounds:2336,3728,46,65
+rotate:90
 R T jiemao 2
-	bounds: 1346, 3041, 10, 21
+bounds:23,3764,10,21
+rotate:90
 R T yanpi 0
-	bounds: 1903, 3025, 22, 37
+bounds:703,3752,22,37
+rotate:90
 R T yanpi 1
-	bounds: 1800, 2925, 62, 81
-	offsets: 0, 0, 62, 82
+bounds:3446,3712,62,82
+rotate:90
 R dao 0
-	bounds: 1045, 1177, 485, 170
+bounds:1667,3328,485,170
 R dao 1
-	bounds: 1643, 2246, 309, 84
-	offsets: 0, 0, 310, 84
+bounds:1150,3654,310,84
 R dao guang 0
-	bounds: 1791, 1991, 251, 143
-R lag 0
-	bounds: 2114, 432, 1381, 866
-	offsets: 0, 0, 1381, 902
-	rotate: 180
+bounds:3139,3462,251,143
 R lag 1
-	bounds: 1, 2472, 293, 451
+bounds:1201,2810,293,451
+rotate:90
 R shou 0
-	bounds: 1264, 2714, 222, 141
+bounds:2915,3476,222,141
 R shou 1
-	bounds: 733, 2254, 101, 76
-	offsets: 0, 5, 101, 82
+bounds:704,3670,101,77
+offsets:0,5,101,82
 R shou 2
-	bounds: 500, 3018, 93, 44
-	offsets: 0, 0, 93, 45
+bounds:2163,3729,93,45
 R shou 3
-	bounds: 589, 2433, 92, 128
+bounds:2024,3638,92,128
+rotate:90
 R tongkong 0
-	bounds: 1728, 3025, 34, 37
+bounds:1342,3740,34,37
+rotate:90
 R xiuzi 0
-	bounds: 3693, 148, 402, 398
+bounds:716,2515,402,398
 R xiuzi 1
-	bounds: 2148, 283, 1000, 357
+bounds:1700,2331,1000,357
 R xiuzi feidao
-	bounds: 1091, 2155, 281, 175
-	offsets: 0, 1, 281, 176
+bounds:2154,3308,281,175
+offsets:0,1,281,176
 R yanbai
-	bounds: 1286, 2958, 37, 50
+bounds:1480,3737,37,50
+rotate:90
 R yanjiao
-	bounds: 1808, 3038, 12, 24
+bounds:193,3762,12,24
+rotate:90
 T hudiejie 0
-	bounds: 1631, 3025, 52, 37
-	offsets: 1, 0, 54, 37
+bounds:1532,3737,52,37
+offsets:1,0,54,37
 T hudiejie 1
-	bounds: 1216, 2953, 70, 59
+bounds:3232,3715,70,59
 T hudiejie 2
-	bounds: 1847, 3033, 28, 29
+bounds:1043,3746,28,29
+rotate:90
 T hudiejie 3
-	bounds: 2201, 3004, 42, 58
+bounds:2103,3732,42,58
+rotate:90
 T hudiejie 4
-	bounds: 1, 2556, 64, 80
+bounds:3670,3710,64,80
+rotate:90
 Top feidao
-	bounds: 1804, 1, 1962, 627
-	rotate: 180
+bounds:888,221,1962,627
 beijing 0
-	bounds: 1, 398, 1120, 606
+bounds:0,1283,1120,606
 beijing 1
-	bounds: 3495, 2964, 159, 98
+bounds:2589,3622,159,98
 bengdai 0
-	bounds: 1223, 683, 167, 294
+bounds:767,3363,167,294
+rotate:90
 bengdai 2
-	bounds: 3337, 2790, 106, 72
+bounds:3848,3702,106,72
 bianzi 0
-	bounds: 1916, 2012, 319, 126
+bounds:1390,3517,319,125
+offsets:0,0,319,126
 bianzi 1
-	bounds: 3547, 68, 842, 548
-	rotate: 270
+bounds:1858,1781,842,548
 body 0
-	bounds: 3525, 1774, 570, 618
+bounds:2702,1638,570,618
+rotate:90
 bozi
-	bounds: 3999, 2523, 77, 95
-	offsets: 0, 0, 78, 95
+bounds:807,3667,78,95
+rotate:90
 cao 0
-	bounds: 1732, 2788, 73, 207
-	offsets: 0, 0, 74, 207
+bounds:0,3688,72,207
+offsets:0,0,74,207
+rotate:90
 cao 1
-	bounds: 1678, 1983, 114, 142
+bounds:372,3563,114,142
+rotate:90
 cao 2
-	bounds: 1798, 1628, 201, 152
+bounds:3714,3436,201,152
 cao 3
-	bounds: 3408, 2196, 116, 142
-	offsets: 0, 1, 116, 143
+bounds:632,3552,116,142
+offsets:0,1,116,143
+rotate:90
 diban 0
-	bounds: 1003, 1251, 1501, 730
-	offsets: 1, 0, 1502, 730
+bounds:1122,1049,1501,730
+offsets:1,0,1502,730
 dingdaer guang
-	bounds: 430, 430, 522, 478
-	offsets: 4, 20, 526, 498
+bounds:598,1991,522,478
+offsets:4,20,526,498
+rotate:90
 doumao 0
-	bounds: 3786, 1406, 158, 162
+bounds:3550,3441,158,162
+rotate:90
 doumao 1
-	bounds: 1200, 2728, 87, 96
+bounds:1462,3648,87,96
+rotate:90
 doumao 2
-	bounds: 1580, 1998, 107, 118
+bounds:3630,3601,107,118
+rotate:90
 doumao 3
-	bounds: 43, 901, 347, 187
+bounds:2705,3287,347,187
 doumao 4
-	bounds: 1136, 2718, 102, 74
+bounds:209,3682,102,74
 doumao 5
-	bounds: 592, 3008, 66, 54
+bounds:3101,3720,66,54
 doumao 6
-	bounds: 97, 470, 353, 166
-	offsets: 0, 0, 354, 166
+bounds:1311,3349,354,166
 doumao 8
-	bounds: 2350, 1311, 296, 377
+bounds:1654,2755,295,377
+offsets:0,0,296,377
+rotate:90
 doumao7
-	bounds: 1697, 2705, 85, 146
-	offsets: 0, 0, 99, 146
+bounds:904,3659,85,146
+offsets:0,0,99,146
+rotate:90
 doumao9
-	bounds: 385, 2441, 232, 99
+bounds:2906,3619,232,99
 doupeng 0
-	bounds: 3679, 1998, 140, 129
+bounds:1711,3513,140,129
 doupeng 1
-	bounds: 3453, 1913, 122, 150
+bounds:936,3532,122,150
+rotate:90
 doupeng 2
-	bounds: 3170, 3026, 33, 36
+bounds:1252,3741,33,36
+rotate:90
 doupeng 3
-	bounds: 3058, 1576, 429, 601
+bounds:3237,2210,429,600
+offsets:0,1,429,601
+rotate:90
 doupeng 4
-	bounds: 3528, 1776, 61, 140
-	offsets: 0, 0, 62, 140
+bounds:3304,3713,61,140
+offsets:0,0,62,140
+rotate:90
 doupeng 5
-	bounds: 1350, 2209, 300, 121
-	offsets: 0, 1, 300, 122
+bounds:1088,3531,300,121
+offsets:0,1,300,122
 doupeng 6
-	bounds: 293, 2708, 94, 125
+bounds:2322,3632,94,125
+rotate:90
 doupeng 7
-	bounds: 1, 2828, 1199, 234
-doupeng 8
-	bounds: 2459, 1161, 1234, 866
-	rotate: 90
+bounds:0,2915,1199,234
 doupeng feidao 0
-	bounds: 3829, 949, 266, 185
+bounds:2437,3291,266,185
 doupeng sheng 0
-	bounds: 3868, 1641, 147, 156
-	offsets: 3, 0, 150, 156
+bounds:3392,3453,147,156
+offsets:3,0,150,156
+rotate:90
 erduo 0
-	bounds: 1174, 2942, 53, 72
-	offsets: 0, 6, 53, 78
+bounds:2753,3721,53,71
+offsets:0,7,53,78
+rotate:90
 fengge 0
-	bounds: 870, 1764, 132, 200
+bounds:1853,3504,132,200
+rotate:90
 gutoushipin 0
-	bounds: 968, 3030, 51, 32
-	offsets: 0, 0, 51, 34
+bounds:1199,3742,51,32
+offsets:0,0,51,34
 gutoushipin 1
-	bounds: 1683, 3025, 45, 37
-	offsets: 0, 0, 46, 37
+bounds:1586,3737,46,37
 gutoushipin 2
-	bounds: 732, 3011, 69, 51
-	offsets: 0, 0, 70, 52
+bounds:2493,3723,69,51
+offsets:0,0,70,52
 jigu 0
-	bounds: 3993, 1215, 102, 370
-	offsets: 0, 0, 102, 376
+bounds:0,3575,102,370
+offsets:0,0,102,376
+rotate:90
 jigu 1
-	bounds: 693, 3009, 61, 53
+bounds:2826,3721,61,53
 jigu 2
-	bounds: 1, 2296, 221, 229
+bounds:1448,3105,221,229
+rotate:90
 jigu yinying 0
-	bounds: 1594, 2990, 72, 308
-	rotate: 90
+bounds:313,3679,72,308
+rotate:90
 lian 0
-	bounds: 1, 2200, 134, 104
+bounds:3265,3607,134,104
 lian 1
-	bounds: 3872, 2855, 217, 207
-	offsets: 0, 5, 218, 215
+bounds:1229,3140,217,207
+offsets:0,5,218,215
 meimao 0
-	bounds: 3563, 2909, 41, 54
+bounds:1828,3733,41,54
+rotate:90
 meimao 1
-	bounds: 1327, 3044, 18, 18
+bounds:480,3756,18,18
 mianju 0
-	bounds: 3279, 2708, 99, 154
+bounds:2750,3620,99,154
+rotate:90
 mianju yanjing 0
-	bounds: 419, 3045, 17, 94
-	rotate: 90
+bounds:364,3757,17,94
+rotate:90
 mianju yanjing 1
-	bounds: 163, 3033, 29, 146
-	offsets: 9, 0, 38, 146
-	rotate: 90
+bounds:500,3755,19,115
+offsets:9,31,38,146
+rotate:90
+mianju yanjing 3
+bounds:500,3755,19,115
+offsets:9,31,38,146
+rotate:90
+mianju yanjing 4
+bounds:500,3755,19,115
+offsets:9,31,38,146
+rotate:90
+mianju yanjing 5
+bounds:500,3755,19,115
+offsets:9,31,38,146
+rotate:90
+mianju yanjing 2
+bounds:1074,3746,28,34
+offsets:10,0,38,146
+rotate:90
+mianju yanjing 6
+bounds:1074,3746,28,34
+offsets:10,0,38,146
+rotate:90
 mianju yinying 0
-	bounds: 68, 2344, 342, 190
-	offsets: 10, 11, 358, 201
+bounds:3342,3249,342,190
+offsets:10,11,358,201
 miwu 0
-	bounds: 904, 2687, 646, 289
+bounds:2333,2690,646,289
 miwu 1
-	bounds: 3641, 1689, 454, 192
-	offsets: 1025, 341, 2610, 1004
+bounds:249,3198,455,192
+offsets:1024,341,2610,1004
 miwu 2
-	bounds: 2126, 1994, 319, 336
-	offsets: 0, 0, 322, 355
-miwu 3
-	bounds: 852, 173, 1522, 856
-	rotate: 180
+bounds:2981,2660,319,336
+offsets:0,0,322,355
+rotate:90
 miwu 4
-	bounds: 3557, 550, 438, 778
-	offsets: 0, 7, 493, 874
+bounds:1078,1891,438,778
+offsets:0,7,493,874
+rotate:90
 naizi 0
-	bounds: 1486, 2677, 269, 326
-	offsets: 16, 0, 285, 329
+bounds:2240,3020,269,326
+offsets:16,0,285,329
+rotate:90
 naizi 1
-	bounds: 687, 2226, 106, 104
-	offsets: 0, 0, 107, 104
+bounds:3401,3606,106,104
+offsets:0,0,107,104
 neiyi 0
-	bounds: 1209, 1311, 298, 298
+bounds:2033,2720,298,298
 neiyi 1
-	bounds: 3435, 1852, 278, 330
+bounds:2568,3007,278,330
+rotate:90
 neiyi 2
-	bounds: 785, 3028, 97, 34
+bounds:1381,3740,97,34
 neiyi 3
-	bounds: 379, 2805, 46, 88
+bounds:2403,3728,46,88
+rotate:90
 neiyi 4
-	bounds: 785, 2040, 346, 290
+bounds:3489,2943,346,290
 pigu 0
-	bounds: 3788, 2319, 307, 254
+bounds:1931,3052,307,254
 renwu guangyun
-	bounds: 424, 1421, 578, 363
+bounds:1120,2390,578,363
 scope
-	bounds: 73, 3054, 8, 8
+bounds:0,3766,8,8
 shalou 0
-	bounds: 3655, 2996, 53, 66
+bounds:2889,3721,53,66
+rotate:90
 shalou guang 0
-	bounds: 2249, 2884, 172, 178
+bounds:3917,3416,172,178
+rotate:90
 shalou guang 1
-	bounds: 3964, 2204, 114, 114
+bounds:516,3558,114,114
 shalou guang 2
-	bounds: 3279, 2863, 215, 199
+bounds:3686,3235,215,199
 shipin touying 0
-	bounds: 1201, 3037, 57, 25
+bounds:818,3749,57,25
 shipin touying 1
-	bounds: 23, 3049, 42, 13
+bounds:219,3761,42,13
 shipin touying 2
-	bounds: 303, 3051, 115, 11
+bounds:46,3763,115,11
 shipinsheng 0
-	bounds: 1, 3035, 164, 27
+bounds:877,3747,164,27
 shipinsheng 1
-	bounds: 1796, 2944, 29, 51
-shu 0
-	bounds: 682, 2331, 1776, 731
+bounds:1110,3745,29,51
+rotate:90
 shu 1
-	bounds: 370, 2525, 533, 419
-	offsets: 0, 3, 533, 422
+bounds:2702,2239,533,419
+offsets:0,3,533,422
 shugan 0
-	bounds: 1508, 946, 848, 894
-	rotate: 90
+bounds:2852,0,848,894
+rotate:90
 shugan 1
-	bounds: 2374, 707, 587, 266
-shugan 2
-	bounds: 1, 457, 997, 1501
-	rotate: 270
+bounds:2900,2981,587,266
 shugan 3
-	bounds: 3279, 1088, 1310, 766
-	rotate: 270
+bounds:2625,850,1310,764
+offsets:0,0,1310,766
 tou yinying
-	bounds: 961, 2887, 215, 135
-	offsets: 14, 9, 244, 156
+bounds:2430,3485,215,135
+offsets:14,9,244,156
 toufa 0
-	bounds: 2511, 2201, 246, 170
+bounds:1063,3359,246,170
 toufa 1
-	bounds: 2509, 2345, 101, 123
+bounds:3140,3612,101,123
+rotate:90
 toufa 2
-	bounds: 3787, 855, 154, 263
-	offsets: 0, 0, 154, 280
+bounds:0,3419,154,263
+offsets:0,0,154,280
+rotate:90
 toufa 3
-	bounds: 3239, 1086, 250, 239
+bounds:1679,3087,250,239
 toufa 4
-	bounds: 3899, 2611, 196, 246
+bounds:706,3165,196,246
+rotate:90
 toufa 5
-	bounds: 3858, 2541, 140, 142
+bounds:2286,3490,140,142
+rotate:90
 toufa 6
-	bounds: 2123, 2904, 121, 158
+bounds:776,3536,121,158
+rotate:90
 tougu mianju 0
-	bounds: 2907, 867, 300, 602
-	offsets: 3, 0, 303, 602
-	rotate: 90
+bounds:3319,2641,300,602
+offsets:3,0,303,602
+rotate:90
 tougu mianju 1
-	bounds: 2459, 2414, 52, 187
+bounds:2564,3722,52,187
+rotate:90
 tougu mianju 2
-	bounds: 1406, 1011, 189, 286
-touying 0
-	bounds: 1, 1442, 2129, 1004
-	offsets: 0, 0, 2144, 1036
+bounds:3054,3271,189,286
+rotate:90
 wuqi1
-	bounds: 2459, 2176, 818, 886
+bounds:0,463,818,886
+rotate:90
 wuqi2
-	bounds: 3279, 2398, 592, 664
+bounds:3322,1616,592,664
+rotate:90
 yan guang 0
-	bounds: 882, 3021, 46, 41
-	offsets: 3, 0, 54, 46
+bounds:1884,3733,45,41
+offsets:3,0,54,46
 yanguang 1
-	bounds: 881, 2895, 79, 76
+bounds:623,3674,79,76
 yaoping 0
-	bounds: 643, 3004, 61, 58
+bounds:3169,3716,61,58
 zhi shui 0
-	bounds: 2, 2510, 79, 73
-	offsets: 0, 0, 80, 73
+bounds:3956,3701,79,73
+offsets:0,0,80,73
 zhi shui 1
-	bounds: 1462, 2004, 138, 95
-	offsets: 0, 0, 138, 96
+bounds:2449,3625,138,95
+offsets:0,0,138,96
+
+characterselect_silent_2.png
+size:3512,2736
+filter:Linear,Linear
+R lag 0
+bounds:2131,1872,1381,864
+offsets:0,0,1381,902
+doupeng 8
+bounds:2131,1004,1234,866
+miwu 3
+bounds:1778,146,1522,856
+shu 0
+bounds:0,999,1776,731
+shugan 2
+bounds:0,0,997,1501
+rotate:90
+touying 0
+bounds:0,1732,2129,1004
+offsets:0,0,2144,1036
