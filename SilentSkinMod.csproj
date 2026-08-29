@@ -32,7 +32,7 @@
     </ItemGroup>
 
     <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-		<Exec Command="xcopy /Y &quot;&quot;D:\sts2_project\RegentSkinMod\.godot\mono\temp\bin\ExportRelease\SilentSkinMod.dll&quot;&quot; &quot;D:\SteamLibrary\steamapps\common\Slay the Spire 2\mods\SilentSkinMod&quot;" />
+		<Exec Command="xcopy /Y &quot;&quot;D:\sts2_project\SilentSkinMod\.godot\mono\temp\bin\ExportDebug\SilentSkinMod.dll&quot;&quot; &quot;D:\SteamLibrary\steamapps\common\Slay the Spire 2\mods\SilentSkinMod&quot;" />
     </Target>
 
 </Project>
