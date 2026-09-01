@@ -139,4 +139,10 @@ public partial class HeadBoneClickToggle : Control
         }
         return false;
     }
+    
+    public override void _ExitTree()
+    {
+        _targetSlots.Clear();
+        _storedColors.Clear();
+    }
 }
