@@ -31,27 +31,13 @@ public partial class HeadBoneClickToggle : Control
     public override void _Ready()
     {
         _spineNode = GetNode("../SpineSprite");
-        if (_spineNode == null)
-        {
-            GD.PrintErr("未找到 SpineSprite 节点");
-            return;
-        }
         
         var spineSprite = new MegaSprite(Variant.From(_spineNode));
         _skeleton = spineSprite.GetSkeleton();
-        if (_skeleton == null)
-        {
-            GD.PrintErr("无法获取 MegaSkeleton");
-            return;
-        }
         
         if (_spineNode.HasSignal("world_transforms_changed"))
         {
             _spineNode.Connect("world_transforms_changed", new Callable(this, nameof(OnWorldTransformsChanged)));
-        }
-        else
-        {
-            GD.PrintErr("SpineSprite 没有 world_transforms_changed 信号，请使用备用方案");
         }
         
         CacheTargetSlots();
@@ -138,5 +124,16 @@ public partial class HeadBoneClickToggle : Control
                 return true;
         }
         return false;
+    }
+    
+    public override void _ExitTree()
+    {
+        if (_spineNode != null && _spineNode.HasSignal("world_transforms_changed"))
+        {
+            _spineNode.Disconnect("world_transforms_changed", new Callable(this, nameof(OnWorldTransformsChanged)));
+        }
+        
+        _targetSlots.Clear();
+        _storedColors.Clear();
     }
 }
