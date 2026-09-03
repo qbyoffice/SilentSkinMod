@@ -5,8 +5,6 @@
 [ext_resource type="PackedScene" uid="uid://bgy88bk44xxvk" path="res://scenes/ui/selection_reticle.tscn" id="3_cawfr"]
 
 [node name="SilentRestSite" type="Node2D"]
-position = Vector2(-2, 42)
-scale = Vector2(0.760006, 0.760006)
 script = ExtResource("2_eok0h")
 
 [node name="SpineSprite" type="SpineSprite" parent="."]
@@ -15,16 +13,16 @@ preview_skin = "Default"
 preview_animation = "-- Empty --"
 preview_frame = false
 preview_time = 0.0
-position = Vector2(-10.526233, 105.26232)
-scale = Vector2(1.15, 1.15)
+position = Vector2(-10, 122)
+scale = Vector2(0.87400687, 0.87400687)
 
 [node name="ControlRoot" type="Control" parent="."]
 layout_mode = 3
 anchors_preset = 0
-offset_left = 68.4205
-offset_top = -9.21045
-offset_right = 68.4205
-offset_bottom = -9.21045
+offset_left = 49.999992
+offset_top = 35.000004
+offset_right = 49.999992
+offset_bottom = 35.000004
 
 [node name="SelectionReticle" parent="ControlRoot" instance=ExtResource("3_cawfr")]
 unique_name_in_owner = true

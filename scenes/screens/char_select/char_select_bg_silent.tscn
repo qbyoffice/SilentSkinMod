@@ -1,7 +1,10 @@
-[gd_scene load_steps=16 format=3 uid="uid://fcuocamiai2r"]
+[gd_scene load_steps=19 format=3 uid="uid://fcuocamiai2r"]
 
 [ext_resource type="SpineSkeletonDataResource" uid="uid://bfgiegm6fg76q" path="res://silent/animations/character_select/characterselect_silent_skel_data_.tres" id="1_4vfsy"]
+[ext_resource type="Texture2D" uid="uid://ut2siocq2jbl" path="res://silent/animations/silent_button/silent_button_idle.png" id="2_catwu"]
+[ext_resource type="Texture2D" uid="uid://qwnc6flmy5wg" path="res://silent/animations/silent_button/silent_button_click.png" id="3_3lbej"]
 [ext_resource type="Shader" uid="uid://bwa5alqqsss7h" path="res://shaders/vfx/vfx_stepped_shader_fire_add.tres" id="3_d7gfu"]
+[ext_resource type="Texture2D" uid="uid://5r2tkclk30bk" path="res://silent/animations/silent_button/silent_button_select.png" id="4_vq3mu"]
 [ext_resource type="Texture2D" uid="uid://dvrqs4oc7u8c1" path="res://images/vfx/tileable_noise_1.png" id="4_xbqpc"]
 [ext_resource type="Texture2D" uid="uid://c3fjcj3s7ahsu" path="res://images/vfx/light.png" id="5_xp3hp"]
 [ext_resource type="Texture2D" uid="uid://c2gaimscc2lx1" path="res://images/vfx/tileable_noise_2.png" id="6_4op7v"]
@@ -69,14 +72,6 @@ grow_horizontal = 2
 grow_vertical = 2
 pivot_offset = Vector2(1280, 600)
 
-[node name="Head_Click" type="Control" parent="."]
-anchors_preset = 0
-offset_left = 1725.0
-offset_top = 299.0
-offset_right = 1865.0
-offset_bottom = 566.0
-script = ExtResource("11_4op7v")
-
 [node name="stink_lines" type="Sprite2D" parent="."]
 material = SubResource("ShaderMaterial_vq3mu")
 position = Vector2(950, 659)
@@ -91,12 +86,6 @@ preview_frame = false
 preview_time = 0.0
 position = Vector2(-587.00006, -446)
 scale = Vector2(0.65, 0.65)
-
-[node name="SpineBoneNode" type="SpineBoneNode" parent="SpineSprite"]
-bone_name = "head44"
-show_behind_parent = true
-position = Vector2(3625.7783, 1319.1116)
-scale = Vector2(30.315306, 48.54355)
 
 [node name="light_small2" type="CPUParticles2D" parent="."]
 material = ExtResource("shared_additive_mat")
@@ -156,3 +145,24 @@ offset_right = 1732.0
 offset_bottom = 429.0
 script = ExtResource("11_xp3hp")
 LongPressThreshold = 0.2
+
+[node name="Head_Click" type="Control" parent="."]
+anchors_preset = 0
+offset_left = 1818.0
+offset_top = 662.0
+offset_right = 1818.0
+offset_bottom = 662.0
+script = ExtResource("11_4op7v")
+
+[node name="TextureButton" type="TextureButton" parent="Head_Click"]
+layout_mode = 0
+offset_left = -40.0
+offset_top = -49.0
+offset_right = 50.0
+offset_bottom = 41.0
+toggle_mode = true
+action_mode = 0
+keep_pressed_outside = true
+texture_normal = ExtResource("2_catwu")
+texture_pressed = ExtResource("3_3lbej")
+texture_hover = ExtResource("4_vq3mu")

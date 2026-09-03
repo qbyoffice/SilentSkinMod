@@ -7,133 +7,158 @@ namespace SilentSkinMod.Core.Nodes.Animation;
 [GodotClassName("HeadBoneClickToggle")]
 public partial class HeadBoneClickToggle : Control
 {
-    private readonly string[] _slotsToToggle = new string[]
-    {
-        "tougu mianju 0",
-        "tougu mianju 1",
-        "tougu mianju 2",
-        "mianju yanjing 0",
-        "mianju yanjing 6",
-        "mianju yanjing 2",
-        "mianju yanjing 3",
-        "mianju yanjing 4",
-        "mianju yanjing 5",
-        "mianju yanjing 1",
-        "mianju yinying 0"
-    };
+	private readonly string[] _slotsToToggle = new string[]
+	{
+		"tougu mianju 0",
+		"tougu mianju 1",
+		"tougu mianju 2",
+		"mianju yanjing 0",
+		"mianju yanjing 6",
+		"mianju yanjing 2",
+		"mianju yanjing 3",
+		"mianju yanjing 4",
+		"mianju yanjing 5",
+		"mianju yanjing 1",
+		"mianju yinying 0",
+		"jio_R",
+		"mianjv",
+        "zuojio"
+	};
 
-    private bool _isHidden = false; 
-    private Node _spineNode = null; 
-    private MegaSkeleton _skeleton = null; 
-    private List<GodotObject> _targetSlots = new List<GodotObject>(); 
-    private Dictionary<string, Color> _storedColors = new Dictionary<string, Color>(); 
+	private bool _isHidden = false;
 
-    public override void _Ready()
-    {
-        _spineNode = GetNode("../SpineSprite");
-        
-        var spineSprite = new MegaSprite(Variant.From(_spineNode));
-        _skeleton = spineSprite.GetSkeleton();
-        
-        if (_spineNode.HasSignal("world_transforms_changed"))
-        {
-            _spineNode.Connect("world_transforms_changed", new Callable(this, nameof(OnWorldTransformsChanged)));
-        }
-        
-        CacheTargetSlots();
-    }
-    
-    private void CacheTargetSlots()
-    {
-        var slots = _skeleton.BoundObject.Call("get_slots");
-        if (slots.VariantType != Variant.Type.Array)
-            return;
+	[Export] public Node[] TargetSpineSprites = new Node[0];
+	
+	private List<GodotObject> _allTargetSlots = new List<GodotObject>();
+	private Dictionary<string, Color> _storedColors = new Dictionary<string, Color>();
 
-        var slotsArray = slots.As<Godot.Collections.Array>();
-        foreach (var slotVariant in slotsArray)
-        {
-            if (slotVariant.VariantType != Variant.Type.Object)
-                continue;
+	public override void _Ready()
+	{
+		if (TargetSpineSprites == null || TargetSpineSprites.Length == 0)
+		{
+			var defaultNode = GetNode("../SpineSprite");
+			if (defaultNode != null)
+			{
+				TargetSpineSprites = new Node[] { defaultNode };
+			}
+			else
+			{
+				GD.PrintErr("未指定任何 SpineSprite 节点，且无法自动找到");
+				return;
+			}
+		}
+		
+		foreach (var spineNode in TargetSpineSprites)
+		{
+			if (spineNode == null) continue;
 
-            var slot = slotVariant.AsGodotObject();
-            string slotName = slot.Call("get_data").AsGodotObject().Call("get_name").AsString();
+			// 获取 MegaSkeleton
+			var spineSprite = new MegaSprite(Variant.From(spineNode));
+			var skeleton = spineSprite.GetSkeleton();
+			if (skeleton == null)
+			{
+				GD.PrintErr($"节点 {spineNode.Name} 无法获取 MegaSkeleton");
+				continue;
+			}
+			
+			var slots = skeleton.BoundObject.Call("get_slots");
+			if (slots.VariantType == Variant.Type.Array)
+			{
+				var slotsArray = slots.As<Godot.Collections.Array>();
+				foreach (var slotVariant in slotsArray)
+				{
+					if (slotVariant.VariantType != Variant.Type.Object)
+						continue;
 
-            if (IsInToggleList(slotName))
-            {
-                _targetSlots.Add(slot);
-            }
-        }
-    }
-    
-    private void OnWorldTransformsChanged(Variant sprite)
-    {
-        ApplyVisibility();
-    }
-    
-    private void ApplyVisibility()
-    {
-        if (_skeleton == null || _targetSlots.Count == 0)
-            return;
+					var slot = slotVariant.AsGodotObject();
+					string slotName = slot.Call("get_data").AsGodotObject().Call("get_name").AsString();
 
-        foreach (var slot in _targetSlots)
-        {
-            string slotName = slot.Call("get_data").AsGodotObject().Call("get_name").AsString();
-            
-            var colorVariant = slot.Call("get_color");
-            Color currentColor = colorVariant.As<Color>();
+					if (IsInToggleList(slotName))
+					{
+						_allTargetSlots.Add(slot);
+					}
+				}
+			}
+			
+			if (spineNode.HasSignal("world_transforms_changed"))
+			{
+				spineNode.Connect("world_transforms_changed", new Callable(this, nameof(OnWorldTransformsChanged)));
+			}
+			else
+			{
+				GD.PrintErr($"节点 {spineNode.Name} 没有 world_transforms_changed 信号");
+			}
+		}
+		
+		ApplyVisibility();
+	}
 
-            if (_isHidden)
-            {
-                if (!_storedColors.ContainsKey(slotName))
-                {
-                    _storedColors[slotName] = currentColor;
-                }
-                currentColor.A = 0f;
-                slot.Call("set_color", currentColor);
-            }
-            else
-            {
-                if (_storedColors.TryGetValue(slotName, out Color storedColor))
-                {
-                    slot.Call("set_color", storedColor);
-                    _storedColors.Remove(slotName);
-                }
-            }
-        }
-    }
+	private void OnWorldTransformsChanged(Variant sprite)
+	{
+		ApplyVisibility();
+	}
 
-    public override void _Input(InputEvent @event)
-    {
-        if (@event is InputEventMouseButton mouseEvent &&
-            mouseEvent.ButtonIndex == MouseButton.Left &&
-            mouseEvent.Pressed)
-        {
-            if (GetGlobalRect().HasPoint(GetGlobalMousePosition()))
-            {
-                _isHidden = !_isHidden;
-                ApplyVisibility(); 
-            }
-        }
-    }
-    
-    private bool IsInToggleList(string name)
-    {
-        foreach (string target in _slotsToToggle)
-        {
-            if (target == name)
-                return true;
-        }
-        return false;
-    }
-    
-    public override void _ExitTree()
-    {
-        if (_spineNode != null && _spineNode.HasSignal("world_transforms_changed"))
-        {
-            _spineNode.Disconnect("world_transforms_changed", new Callable(this, nameof(OnWorldTransformsChanged)));
-        }
-        
-        _targetSlots.Clear();
-        _storedColors.Clear();
-    }
+	private void ApplyVisibility()
+	{
+		if (_allTargetSlots.Count == 0)
+			return;
+
+		foreach (var slot in _allTargetSlots)
+		{
+			string slotName = slot.Call("get_data").AsGodotObject().Call("get_name").AsString();
+			ulong slotId = slot.GetInstanceId();
+			string key = $"{slotId}_{slotName}"; 
+
+			var colorVariant = slot.Call("get_color");
+			Color currentColor = colorVariant.As<Color>();
+
+			if (_isHidden)
+			{
+				if (!_storedColors.ContainsKey(key))
+				{
+					_storedColors[key] = currentColor;
+				}
+				currentColor.A = 0f;
+				slot.Call("set_color", currentColor);
+			}
+			else
+			{
+				if (_storedColors.TryGetValue(key, out Color storedColor))
+				{
+					slot.Call("set_color", storedColor);
+					_storedColors.Remove(key);
+				}
+			}
+		}
+	}
+	
+	private void _on_TextureButton_toggled(bool buttonPressed)
+	{
+		_isHidden = buttonPressed;
+		ApplyVisibility();
+	}
+
+	private bool IsInToggleList(string name)
+	{
+		foreach (string target in _slotsToToggle)
+		{
+			if (target == name)
+				return true;
+		}
+		return false;
+	}
+
+	public override void _ExitTree()
+	{
+		foreach (var spineNode in TargetSpineSprites)
+		{
+			if (spineNode != null && spineNode.HasSignal("world_transforms_changed"))
+			{
+				spineNode.Disconnect("world_transforms_changed", new Callable(this, nameof(OnWorldTransformsChanged)));
+			}
+		}
+
+		_allTargetSlots.Clear();
+		_storedColors.Clear();
+	}
 }
