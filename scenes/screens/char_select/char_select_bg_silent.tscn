@@ -1,6 +1,5 @@
 [gd_scene load_steps=19 format=3 uid="uid://fcuocamiai2r"]
 
-[ext_resource type="SpineSkeletonDataResource" uid="uid://bfgiegm6fg76q" path="res://silent/animations/character_select/characterselect_silent_skel_data_.tres" id="1_4vfsy"]
 [ext_resource type="Texture2D" uid="uid://ut2siocq2jbl" path="res://silent/animations/silent_button/silent_button_idle.png" id="2_catwu"]
 [ext_resource type="Texture2D" uid="uid://qwnc6flmy5wg" path="res://silent/animations/silent_button/silent_button_click.png" id="3_3lbej"]
 [ext_resource type="Shader" uid="uid://bwa5alqqsss7h" path="res://shaders/vfx/vfx_stepped_shader_fire_add.tres" id="3_d7gfu"]
@@ -8,10 +7,11 @@
 [ext_resource type="Texture2D" uid="uid://dvrqs4oc7u8c1" path="res://images/vfx/tileable_noise_1.png" id="4_xbqpc"]
 [ext_resource type="Texture2D" uid="uid://c3fjcj3s7ahsu" path="res://images/vfx/light.png" id="5_xp3hp"]
 [ext_resource type="Texture2D" uid="uid://c2gaimscc2lx1" path="res://images/vfx/tileable_noise_2.png" id="6_4op7v"]
+[ext_resource type="SpineSkeletonDataResource" uid="uid://bfgiegm6fg76q" path="res://silent/animations/character_select/characterselect_silent_skel_data.tres" id="6_catwu"]
 [ext_resource type="Texture2D" uid="uid://d2y3ee2o52m10" path="res://images/vfx/fire/wave_noise_round.png" id="7_i05fu"]
 [ext_resource type="Script" uid="uid://e3nlgaa23pjk" path="res://scenes/backgrounds/little_light_script.gd" id="8_catwu"]
 [ext_resource type="Texture2D" uid="uid://bbp7564qvqp6a" path="res://images/vfx/dot.png" id="9_3lbej"]
-[ext_resource type="Script" uid="uid://cqq7t4gk31r4s" path="res://src/Core/Nodes/Animation/HeadBoneClickToggle.cs" id="11_4op7v"]
+[ext_resource type="Script" uid="uid://dsnksqk0f4tja" path="res://src/Core/HeadBoneClickToggle.cs" id="11_3lbej"]
 [ext_resource type="Script" uid="uid://b65uwe7w48kg8" path="res://src/Core/Nodes/Animation/KaguyaSilentHeadPressInteractor.cs" id="11_xp3hp"]
 [ext_resource type="Material" uid="uid://c4ycqv0gdxvmr" path="res://themes/canvas_item_material_additive_shared.tres" id="shared_additive_mat"]
 
@@ -79,7 +79,7 @@ scale = Vector2(9.76582, 4.88672)
 texture = ExtResource("7_i05fu")
 
 [node name="SpineSprite" type="SpineSprite" parent="."]
-skeleton_data_res = ExtResource("1_4vfsy")
+skeleton_data_res = ExtResource("6_catwu")
 preview_skin = "default"
 preview_animation = "animation"
 preview_frame = false
@@ -152,7 +152,7 @@ offset_left = 1818.0
 offset_top = 662.0
 offset_right = 1818.0
 offset_bottom = 662.0
-script = ExtResource("11_4op7v")
+script = ExtResource("11_3lbej")
 
 [node name="TextureButton" type="TextureButton" parent="Head_Click"]
 layout_mode = 0

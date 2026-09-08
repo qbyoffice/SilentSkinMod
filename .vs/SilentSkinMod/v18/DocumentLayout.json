@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\sts2_project\\SilentSkinMod\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08571E30-87C8-586B-551A-578E03378382}|SilentSkinMod.csproj|d:\\sts2_project\\silentskinmod\\silentskinmod.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{08571E30-87C8-586B-551A-578E03378382}|SilentSkinMod.csproj|solutionrelative:silentskinmod.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{08571E30-87C8-586B-551A-578E03378382}|SilentSkinMod.csproj|d:\\sts2_project\\silentskinmod\\src\\core\\nodes\\animation\\kaguyasilentheadpressinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08571E30-87C8-586B-551A-578E03378382}|SilentSkinMod.csproj|solutionrelative:src\\core\\nodes\\animation\\kaguyasilentheadpressinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08571E30-87C8-586B-551A-578E03378382}|SilentSkinMod.csproj|d:\\sts2_project\\silentskinmod\\silentskinmod.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{08571E30-87C8-586B-551A-578E03378382}|SilentSkinMod.csproj|solutionrelative:silentskinmod.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{08571E30-87C8-586B-551A-578E03378382}|SilentSkinMod.csproj|d:\\sts2_project\\silentskinmod\\silentskinmod.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -35,16 +35,8 @@
       "RelativeMoniker": "D:0:0:{08571E30-87C8-586B-551A-578E03378382}|SilentSkinMod.csproj|solutionrelative:src\\core\\nodes\\vfx\\nnecrobinderflamevfx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08571E30-87C8-586B-551A-578E03378382}|SilentSkinMod.csproj|d:\\sts2_project\\silentskinmod\\src\\core\\nodes\\screens\\shops\\nmerchantcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08571E30-87C8-586B-551A-578E03378382}|SilentSkinMod.csproj|solutionrelative:src\\core\\nodes\\screens\\shops\\nmerchantcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{08571E30-87C8-586B-551A-578E03378382}|SilentSkinMod.csproj|d:\\sts2_project\\silentskinmod\\src\\core\\nodes\\restsite\\nrestsitecharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08571E30-87C8-586B-551A-578E03378382}|SilentSkinMod.csproj|solutionrelative:src\\core\\nodes\\restsite\\nrestsitecharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08571E30-87C8-586B-551A-578E03378382}|SilentSkinMod.csproj|d:\\sts2_project\\silentskinmod\\src\\core\\nodes\\combat\\ncreaturevisuals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08571E30-87C8-586B-551A-578E03378382}|SilentSkinMod.csproj|solutionrelative:src\\core\\nodes\\combat\\ncreaturevisuals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{08571E30-87C8-586B-551A-578E03378382}|SilentSkinMod.csproj|d:\\sts2_project\\silentskinmod\\src\\core\\nodes\\combat\\nselectionreticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,6 +45,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{08571E30-87C8-586B-551A-578E03378382}|SilentSkinMod.csproj|d:\\sts2_project\\silentskinmod\\src\\core\\nodes\\animation\\ndecimillipedesegmentdriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08571E30-87C8-586B-551A-578E03378382}|SilentSkinMod.csproj|solutionrelative:src\\core\\nodes\\animation\\ndecimillipedesegmentdriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\sts2_project\\SilentSkinMod\\src\\Core\\Nodes\\Screens\\Shops\\NMerchantCharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Core\\Nodes\\Screens\\Shops\\NMerchantCharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\sts2_project\\SilentSkinMod\\src\\Core\\Nodes\\Combat\\NCreatureVisuals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Core\\Nodes\\Combat\\NCreatureVisuals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,15 +74,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SilentSkinMod",
               "DocumentMoniker": "D:\\sts2_project\\SilentSkinMod\\SilentSkinMod.csproj",
               "RelativeDocumentMoniker": "SilentSkinMod.csproj",
               "ToolTip": "D:\\sts2_project\\SilentSkinMod\\SilentSkinMod.csproj",
               "RelativeToolTip": "SilentSkinMod.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-08-20T12:23:29.036Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-20T12:23:29.036Z"
             },
             {
               "$type": "Document",
@@ -122,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "KaguyaSilentHeadPressInteractor.cs",
               "DocumentMoniker": "D:\\sts2_project\\SilentSkinMod\\src\\Core\\Nodes\\Animation\\KaguyaSilentHeadPressInteractor.cs",
               "RelativeDocumentMoniker": "src\\Core\\Nodes\\Animation\\KaguyaSilentHeadPressInteractor.cs",
@@ -159,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "NMerchantCharacter.cs",
               "DocumentMoniker": "D:\\sts2_project\\SilentSkinMod\\src\\Core\\Nodes\\Screens\\Shops\\NMerchantCharacter.cs",
               "RelativeDocumentMoniker": "src\\Core\\Nodes\\Screens\\Shops\\NMerchantCharacter.cs",
@@ -171,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "NRestSiteCharacter.cs",
               "DocumentMoniker": "D:\\sts2_project\\SilentSkinMod\\src\\Core\\Nodes\\RestSite\\NRestSiteCharacter.cs",
               "RelativeDocumentMoniker": "src\\Core\\Nodes\\RestSite\\NRestSiteCharacter.cs",
@@ -183,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
               "Title": "NSelectionReticle.cs",
               "DocumentMoniker": "D:\\sts2_project\\SilentSkinMod\\src\\Core\\Nodes\\Combat\\NSelectionReticle.cs",
               "RelativeDocumentMoniker": "src\\Core\\Nodes\\Combat\\NSelectionReticle.cs",
@@ -195,7 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "NCreatureVisuals.cs",
               "DocumentMoniker": "D:\\sts2_project\\SilentSkinMod\\src\\Core\\Nodes\\Combat\\NCreatureVisuals.cs",
               "RelativeDocumentMoniker": "src\\Core\\Nodes\\Combat\\NCreatureVisuals.cs",
@@ -207,7 +206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 10,
               "Title": "NDecimillipedeSegmentDriver.cs",
               "DocumentMoniker": "D:\\sts2_project\\SilentSkinMod\\src\\Core\\Nodes\\Animation\\NDecimillipedeSegmentDriver.cs",
               "RelativeDocumentMoniker": "src\\Core\\Nodes\\Animation\\NDecimillipedeSegmentDriver.cs",

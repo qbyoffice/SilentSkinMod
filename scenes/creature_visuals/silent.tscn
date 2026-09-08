@@ -1,10 +1,11 @@
-[gd_scene load_steps=3 format=3 uid="uid://dkx1yh2d3gj"]
+[gd_scene load_steps=4 format=3 uid="uid://dkx1yh2d3gj"]
 
-[ext_resource type="Script" uid="uid://ba017jerstwws" path="res://src/Core/Nodes/Combat/NCreatureVisuals.cs" id="1_hpa0q"]
-[ext_resource type="SpineSkeletonDataResource" uid="uid://cxo52bhiwgu1y" path="res://silent/animations/characters/silent_skel_data.tres" id="2_mh3y5"]
+[ext_resource type="Script" uid="uid://ba017jerstwws" path="res://src/Core/Nodes/Combat/SNCreatureVisuals.cs" id="1_wu0gt"]
+[ext_resource type="SpineSkeletonDataResource" uid="uid://cxo52bhiwgu1y" path="res://silent/animations/characters/silent_skel_data.tres" id="2_wu0gt"]
+[ext_resource type="SpineSkeletonDataResource" uid="uid://d35rhsenu0mg2" path="res://silent/animations/characters/silent_neko_skel_data.tres" id="3_wu0gt"]
 
 [node name="Silent" type="Node2D"]
-script = ExtResource("1_hpa0q")
+script = ExtResource("1_wu0gt")
 metadata/_edit_group_ = true
 
 [node name="FormVfx" type="Control" parent="."]
@@ -13,13 +14,26 @@ layout_mode = 3
 anchors_preset = 0
 
 [node name="Visuals" type="SpineSprite" parent="."]
-skeleton_data_res = ExtResource("2_mh3y5")
+skeleton_data_res = ExtResource("2_wu0gt")
 preview_skin = "Default"
-preview_animation = "shiv"
+preview_animation = "relaxed_loop"
 preview_frame = false
 preview_time = 0.0
 unique_name_in_owner = true
 position = Vector2(5.000001, -2)
+scale = Vector2(0.35, 0.35)
+metadata/_edit_lock_ = true
+
+[node name="Visuals_neko" type="SpineSprite" parent="."]
+skeleton_data_res = ExtResource("3_wu0gt")
+preview_skin = "Default"
+preview_animation = "relaxed_loop"
+preview_frame = false
+preview_time = 0.0
+unique_name_in_owner = true
+visible = false
+show_behind_parent = true
+position = Vector2(5, -2)
 scale = Vector2(0.35, 0.35)
 metadata/_edit_lock_ = true
 
