@@ -30,7 +30,7 @@
 
 此外，您也可以加入我们的 Discord 频道（非活跃）：
 
-- **Discord**：`https://discord.gg/hn68Xf7gBmega`（请确认链接有效性）
+- **Discord**：`https://discord.gg/hn68Xf7gB
 
 
 ## 问题反馈
